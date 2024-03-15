@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
-public class articleController {
+public class ArticleController {
 
     @GetMapping("/articles/new")
     public String newArticleForm(){
