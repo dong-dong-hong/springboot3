@@ -7,9 +7,16 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+
     properties:
       hibernate:
         dialect: org.hibernate.dialect.H2Dialect
-
 server:
   port: 8081
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+
