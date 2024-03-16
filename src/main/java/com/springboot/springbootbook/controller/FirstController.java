@@ -1,9 +1,11 @@
 package com.springboot.springbootbook.controller;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model; // Model 클래스 패키지 자동 임포트
 import org.springframework.web.bind.annotation.GetMapping;
 
+@Slf4j
 @Controller
 public class FirstController {
 
